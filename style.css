@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    text-decoration: none;
+}
+
+.navdiv{
+    justify-content: space-between; display: flex; align-items: center;
+}
+
+.logo a{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+    font-family: serif;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: white;
+}
+
+.body
+{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.body img{
+    margin-right:8px;
+  
+}
+
+#sec{
+    background-color: black; color: white;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+    margin-top: 8px;
+}
+.card{
+    width: 500px;    
+}
+ 
+.card img{
+ height: 500px; width: 500px; border-radius: 50% ;
+}
+
+.card a{
+    color: black;
+    font-family: monospace;
+  
+}
+
+.card button{
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.card button :hover{
+    background-color: rgb(241, 62, 62);
+}
+.card button :active{
+    background-color: red;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    font-size: 15px;
+    width: 100;
+    background: white;
+    text-align: center;  
+}
+
+.box{
+    display: block;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+
+.lookism {
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    width: 1200px;
+    height: 600px;
+}
+
+.lookism img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --background-color: black;
+    --text-color: hsl(0, 0%, 100%);
+  }
+  
+  
+  .wrapper {
+    display: grid;
+    place-content: center;
+    background-color: var(--background-color);
+    min-height: 5vh;
+    font-family: "Oswald", sans-serif;
+    font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+  
+  .wrapper > div {
+    grid-area: 1/1/-1/-1;
+  }
+  .top {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+  }
+  .bottom {
+    clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+    color: transparent;
+    background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: translateX(-0.02em);
+  }
