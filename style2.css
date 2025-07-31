@@ -23,6 +23,21 @@ body{
     color: white;
 }
 
+h1{
+    margin-top: 100px;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+}
+
+h2{
+    margin-top: 100px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+}
 header{
     margin-top: 20px;
     position: fixed;
@@ -221,7 +236,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #ff0000;
+        border-left: 3px solid #000000;
     }
 }
 
@@ -238,6 +253,7 @@ span{
         content: "Script Writing";
     }
 }
+
 
 @keyframes fade-up{
     0%{
